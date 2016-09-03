@@ -1,5 +1,4 @@
 # forktesting
 
-Adding some more words.
-
-Just a few more.
+1. __Add a numbered list.__
+2. **It's also bold.**
