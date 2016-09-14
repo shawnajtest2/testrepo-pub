@@ -1,7 +1,6 @@
 5. Runtime value injection
   1. Property placeholder
-    - 
-      ```java
+    - ```java
       @Autowired
       Environment env;
       @Bean
@@ -27,10 +26,11 @@
 
     -   RESOLVING PROPERTY PLACEHOLDERS
 
-                - use:
+          - use:
+  
                   - `c:_title="${disc.title}"`
                   - `@Value("${disc.title}") String title`
-            -   configure
+          -   configure
 
                 - `<context:property-placeholder />`
 
