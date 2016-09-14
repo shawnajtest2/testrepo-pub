@@ -1,6 +1,7 @@
 5. Runtime value injection
   1. Property placeholder
-    - ```java
+    - 
+      ```java
       @Autowired
       Environment env;
       @Bean
