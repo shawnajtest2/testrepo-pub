@@ -28,8 +28,8 @@
 
           - use:
   
-                  - `c:_title="${disc.title}"`
-                  - `@Value("${disc.title}") String title`
+              - `c:_title="${disc.title}"`
+              - `@Value("${disc.title}") String title`
           -   configure
 
                 - `<context:property-placeholder />`
