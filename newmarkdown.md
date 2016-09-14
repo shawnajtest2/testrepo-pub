@@ -24,13 +24,13 @@
           - boolean acceptsProfiles(String... profiles)—Returns true if the environment
             supports the given profile(s)
 
-    -   RESOLVING PROPERTY PLACEHOLDERS
+    - RESOLVING PROPERTY PLACEHOLDERS
 
           - use:
   
               - `c:_title="${disc.title}"`
               - `@Value("${disc.title}") String title`
-          -   configure
+          - configure
 
                 - `<context:property-placeholder />`
 
@@ -41,9 +41,9 @@
                   }
                   ```
 
-      2.    SpEL
+  2. SpEL
 
-            - Features:
+    - Features:
 
               - The ability to reference beans by their IDs
               - Invoking methods and accessing properties on objects
