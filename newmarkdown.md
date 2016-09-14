@@ -12,16 +12,15 @@
       }
       ```
     - `Environment` class
-
-        * String getProperty(String key)
-        * String getProperty(String key, String defaultValue)
-        * T getProperty(String key, Class<T> type)
-        * T getProperty(String key, Class<T> type, T defaultValue)
-        * boolean containsProperty(String key)
-        * T getPropertyAsClass(String key, Class<T> type)
-        * String[] getActiveProfiles()—Returns an array of active profile names
-        * String[] getDefaultProfiles()—Returns an array of default profile names
-        * boolean acceptsProfiles(String... profiles)—Returns true if the environment
+     * String getProperty(String key)
+     * String getProperty(String key, String defaultValue)
+     * T getProperty(String key, Class<T> type)
+     * T getProperty(String key, Class<T> type, T defaultValue)
+     * boolean containsProperty(String key)
+     * T getPropertyAsClass(String key, Class<T> type)
+     * String[] getActiveProfiles()—Returns an array of active profile names
+     * String[] getDefaultProfiles()—Returns an array of default profile names
+     * boolean acceptsProfiles(String... profiles)—Returns true if the environment
           supports the given profile(s)
 
             -   RESOLVING PROPERTY PLACEHOLDERS
