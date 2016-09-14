@@ -1,18 +1,17 @@
-5.    Runtime value injection
-
-      1.    Property placeholder
-
-            -   ```java
-                @Autowired
-                Environment env;
-                @Bean
-                public BlankDisc disc() {
-                  return new BlankDisc(
-                    env.getProperty("disc.title"),
-                    env.getProperty("disc.artist"));
-                  }
-                }
-                ```
+5. Runtime value injection
+  1. Property placeholder
+    - ```
+      java
+      @Autowired
+      Environment env;
+      @Bean
+      public BlankDisc disc() {
+        return new BlankDisc(
+          env.getProperty("disc.title"),
+          env.getProperty("disc.artist"));
+        }
+      }
+      ```
 
             -   `Environment` class
 
