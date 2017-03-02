@@ -1,8 +1,9 @@
 # forktesting
 
-1. __Add a numbered list.__
-2. **It's also bold.**
+## 1. First item
 
-It's honestly not *that* many changes.
+### 1.1. Nested first item
 
-Editted.
+### 1.2. Nested second item
+
+## 2. Second item
