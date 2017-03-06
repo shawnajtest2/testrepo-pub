@@ -7,3 +7,5 @@
 ### 1.2. Nested second item
 
 ## 2. Second item
+
+[relative link](../../../../github/pages-gem#usage)
