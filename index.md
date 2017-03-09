@@ -12,4 +12,5 @@ Test for https://github.com/isaacs/github/issues/896
 
 - And a little
 - listicle
+- one more!
 - unordered.
