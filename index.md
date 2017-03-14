@@ -16,3 +16,5 @@ Test for https://github.com/isaacs/github/issues/896
 - unordered.
 
 And if I paste now?
+
+**This text is _extremely_ important**
