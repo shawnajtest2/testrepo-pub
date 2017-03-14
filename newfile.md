@@ -1,34 +1,44 @@
-# ПОЛНОЕ РУКОВОДСТВО. С# 4.0
+## API ##
 
-*Герберт Шилдт*
+- Fast Gradient Sign Method
+  (FGSM)
+  [basic](https://arxiv.org/abs/1412.6572)/[iterative](https://arxiv.org/abs/1607.02533)
 
-1. [Глава 1. Создание C#](c1.md)
-2. [Глава 2. Краткий обзор элементов C#](c2.md)
-3. [Глава 3. Типы данных, литералы и переменные](c3.md)
-4. [Глава 4. Операторы](c4.md)
-5. [Глава 5. Управляющие операторы](c5.md)
-6. [Глава 6. Введение в классы, объекты и методы](c6.md)
-7. [Глава 7. Массивы и строки](c7.md)
-8. [Глава 8. Подробнее о методах и классах](c8.md)
-9. [Глава 9. Перегрузка операторов](c9.md)
-10. [Глава 10. Индексаторы и свойства](c10.md)
-11. [Глава 11. Наследование](c11.md)
-12. [Глава 12. Интерфейсы, структуры и перечисления](c12.md)
-13. [Глава 13. Обработка исключительных ситуаций](c13.md)
-14. [Глава 14. Применение средств ввода-вывода](c14.md)
-15. [Глава 15. Делегаты, события и лямбда-выражения](c15.md)
-16. [Глава 16. Пространства имен, препроцессор и сборки](c16.md)
-17. [Глава 17. Динамическая идентификация типов, рефлексия и атрибуты](c17.md)
-18. [Глава 18. Обобщения](c18.md)
-19. [Глава 19. LINQ](c19.md)
-20. [Глава 20. Небезопасный код, указатели, обнуляемые типы и разные ключевые слова](c20.md)
-21. [Глава 21. Пространство имен System](c21.md)
-22. [Глава 22. Строки и форматирование](c22.md)
-23. [Глава 23. Многопоточное программирование. Часть первая: основы](c23.md)
-24. [Глава 24. Многопоточное программирование. Часть вторая: библиотека TPL](c24.md)
-25. [Глава 25. Коллекции, перечислители и итераторы](c25.md)
-26. [Глава 26. Сетевые средства подключения к Интернету](c26.md)
+    ```python
+    fgsm(model, x, eps=0.01, nb_epoch=1, clip_min=0.0, clip_max=1.0)
+    ```
 
-<!-- -->
+- [Target class Gradient Sign Method (TGSM)](https://arxiv.org/abs/1607.02533)
 
-* [Приложение. Краткий справочник по составлению документирующих комментариев](appendix.md)
+    ```python
+tgsm(model, x, y=None, eps=0.01, nb_epoch=1, clip_min=0.0, clip_max=1.0)
+    ```
+
+    When `y=None`, this implements the least-likely class method.  If
+    `y` is an integer or a list of integers, the source image is
+    modified towards label `y`.
+
+- [Jacobian-based Saliency Map Approach (JSMA)](https://arxiv.org/abs/1511.07528)
+
+    ```python
+jsma(model, x, y, nb_epoch=1.0, eps=1., clip_min=0.0, clip_max=1.0, pair=False, min_proba=0.0)
+    ```
+
+    `y` is the target label, could be an integer or a list.  when
+    `nb_epoch` is a floating number in `[0, 1]`, it denotes the
+    maximum distortion allowed and `nb_epoch` is automatically
+    determined.  `min_proba` denotes the minimum confidence of target
+    image.  If `pair=True`, then modifies two pixels at a time.
+
+- Saliency map difference approach (SMDA)
+
+    ```python
+smda(model, x, y, nb_epoch=1.0, eps=1., clip_min=0.0, clip_max=1.0, min_proba=0.0)
+    ```
+
+    Similar to `jsma` interface.  The only difference is the saliency
+    score calculation.  In `jsma`, saliency score is calculated as
+    `dt/dx * (-do/dx)`, which in `smda`, the saliency score is
+    `dt/dx - do/dx` which is more straightforward and simpler.
+
+## Fun Examples ##
