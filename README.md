@@ -8,4 +8,4 @@
 
 ## 2. Second item
 
-[relative link](../../../../github/pages-gem#usage)
+[the root folder of my project](../../)
