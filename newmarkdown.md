@@ -1,8 +1,8 @@
 # Snowplow
 
-[ ![Build Status] [travis-image] ] [travis]
-[ ![Release] [release-image] ] [releases]
-[ ![License] [license-image] ] [license]
+[ ![Build Status][travis-image] ][travis]
+[ ![Release][release-image] ][releases]
+[ ![License][license-image] ][license]
 
 <img src="https://d3i6fms1cm1j0i.cloudfront.net/github-wiki/images/snowplow-logo-large.png"
  alt="Snowplow logo" title="Snowplow" align="right" />
