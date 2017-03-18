@@ -1,20 +1,3 @@
-# Multiple quotes in a row (Github's bug)
+[SQL Server Data Types](/SQL Server Data Types.md)
 
-Test for https://github.com/isaacs/github/issues/896
-
-> Quote 1
-
-<!-- -->
-
-> Quote 2
-
-## Adding something down here.
-
-- And a little
-- listicle
-- one more!
-- unordered.
-
-And if I paste now?
-
-**This text is _extremely_ important**
+[SQL Server Data Types](../SQL Server Data Types.md)
