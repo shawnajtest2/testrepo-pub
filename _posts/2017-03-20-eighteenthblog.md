@@ -11,8 +11,7 @@ published: true
     <td>Eighteenth Blog</td>
     <th>Date</th>
     <td>16/03/17</td>
-  </tr>
-</table>
+  </tr></table>
 
 <table>
   <tr>
