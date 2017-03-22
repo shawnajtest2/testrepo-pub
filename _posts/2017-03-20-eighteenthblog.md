@@ -6,12 +6,15 @@ permalink: /eighteenth-blog/
 published: true
 ---
 <table>
-  <tr>
-    <th>Title</th>
-    <td>Eighteenth Blog</td>
-    <th>Date</th>
-    <td>16/03/17</td>
-  </tr></table>
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td>Eighteenth Blog</td>
+      <th>Date</th>
+      <td>16/03/17</td>
+    </tr>
+  </tbody>
+</table>
 
 <table>
   <tr>
