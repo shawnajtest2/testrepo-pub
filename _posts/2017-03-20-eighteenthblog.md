@@ -1,6 +1,6 @@
 ---
 title: Eighteenth Blog
-layout: post
+layout: default
 author: oliver.sherwin
 permalink: /eighteenth-blog/
 source-id: 1253igHQz8WYaLmsodkY0dSNQAqsJq4Ts9u4VBNAOJFk
