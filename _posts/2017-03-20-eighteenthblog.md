@@ -1,6 +1,6 @@
 ---
 title: Eighteenth Blog
-layout: post
+layout: default
 author: oliver.sherwin
 permalink: /eighteenth-blog/
 source-id: 1253igHQz8WYaLmsodkY0dSNQAqsJq4Ts9u4VBNAOJFk
@@ -55,7 +55,7 @@ published: true
   </tr>
   <tr>
   <td>Electronic</td>
-A  </tr>
+  </tr>
   <tr>
     <th>Tumblr</th>
   </tr>
@@ -128,3 +128,5 @@ A  </tr>
   <td>We discussed about religion and how it impacts people's lives. It makes them feel like they are always suported and it makes them feel as if they have been told their value and addition to life. Mr Keen also discussed with us about lies to try and make our lives simpler or to bring an element of joy to them. As an example, when Mr Keen told us about how he lies to his daughter about when the ice-cream vans play the music it means that they have ran out of ice-cream and they are on their way back home - this is a lie to simplay make our lives easier. However, a lie to bring more of a joy to life, are things like the 'Easter Bunny', making people find the joy of the chocolate eggs that the 'Easter Bunny' has hidden around your back garden, or in your kitchen.</td>
 </tr>
 </table>
+
+
