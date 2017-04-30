@@ -1,3 +1,1 @@
-This file is conflicted.
-
-changes!!!
+Rewriting this file.
