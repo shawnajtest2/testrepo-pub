@@ -1,4 +1,5 @@
-<img alt="My alt" src="https://cdn.pixabay.com/photo/2016/02/12/16/03/flower-1196301_1280.jpg" style="border-radius:10px;" />
+<p style="align:center">
 
-
-<span style="color:red;">RED TEXT</span>
+![My alt](https://upload.wikimedia.org/wikipedia/commons/1/1a/Trivial_Pursuit_icon.png)
+	
+</p>
