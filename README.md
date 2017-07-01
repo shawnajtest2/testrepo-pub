@@ -1,5 +1,5 @@
 ## 👨‍🎓 Education
 
-	done
+done
 
 changes!
