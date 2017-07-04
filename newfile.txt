@@ -1,4 +1,0 @@
-Just adding something over here. :)
-
-
--DDISABLE_LIBRARIES_GENERATION=TRUE
