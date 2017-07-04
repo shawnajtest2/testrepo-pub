@@ -1,5 +1,3 @@
-## 👨‍🎓 Education
+## SJ's test repo
 
-done
-
-changes!
+for testing & things
