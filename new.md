@@ -1,5 +1,5 @@
 ---
-title:"testing yaml things"
+title: "testing yaml things"
 ---
 
 #New Things!
