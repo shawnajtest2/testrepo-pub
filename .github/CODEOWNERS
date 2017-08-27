@@ -1,5 +1,2 @@
-* @shawnajean
-
-README.md @shawnajean @shawnajtest
-
-travis/* @shawnajtest
+*.md @shawnajean
+/peanut/butter/ @shawnajtest
