@@ -1,4 +1,4 @@
-theme: ""
+theme: null
 
 exclude:
 - 1.md
